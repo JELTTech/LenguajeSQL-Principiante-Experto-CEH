@@ -43,3 +43,4 @@ customer_id int,
 FOREIGN KEY (customer_id) REFERENCES curso.customers(customer_id) on delete set null
 );
 go
+
